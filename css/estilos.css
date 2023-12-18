@@ -1,7 +1,7 @@
 #cajacategoria{
     text-align: center; 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .custom-section {
@@ -11,6 +11,36 @@
 
 .rounded-image {
     border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+#envios{
+    text-align: center;
+}
+
+.custom-section {
+    text-align: center;
+    
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
     max-width: 100%;
     height: auto;
 }
