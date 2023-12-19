@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Hoja de Estilos Personalizada -->
     <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="https://kit.fontawesome.com/c791f44d2d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="../proyecto_coder/images/LOGO PNG MAYOREO SALAZAR PARA PAGINA WEB.png" alt="Logo" height="50"></a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +35,7 @@
                         <a class="nav-link" href="pages/productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="pages/contactanos.html">Contactanos</a>
+                        <a class="nav-link" href="pages/contactanos.html">Contactanos</a>
                     </li>
                     </li>
                 </ul>
@@ -45,13 +48,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://placehold.co/1920x1080?text=Imagen 1" class="d-block w-100" alt="...">
+                <img src="images/home/slider1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://placehold.co/1920x1080?text=Imagen 2" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://placehold.co/1920x1080?text=Imagen 3" class="d-block w-100" alt="...">
+                <img src="images/home/slider2.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -71,22 +71,22 @@
     <div id="cajacategoria" class="container">
         <div class="row row-cols-4">
             <div class="col">
-                <img src="https://placehold.co/100x100?text=Blusas" class="rounded-circle" alt="Circular Image">
+                <img src="images/home/blusas.png" class="rounded-circle" alt="Circular Image" width="100" height="100">
                 <h5>Blusas</h5>
             </div>
 
             <div class="col">
-                <img src="https://placehold.co/100x100?text=Croptop" class="rounded-circle" alt="Circular Image">
+                <img src="images/home/croptop.png" class="rounded-circle" alt="Circular Image" width="100" height="100">
                 <h5>Croptop</h5>
             </div>
 
             <div class="col">
-                <img src="https://placehold.co/100x100?text=Vestidos" class="rounded-circle" alt="Circular Image">
+                <img src="images/home/vestidos.png" class="rounded-circle" alt="Circular Image" width="100" height="100">
                 <h5>Vestidos</h5>
             </div>
 
             <div class="col">
-                <img src="https://placehold.co/100x100?text=Calcetines" class="rounded-circle" alt="Circular Image">
+                <img src="images/home/calcetines.png" class="rounded-circle" alt="Circular Image" width="100" height="100">
                 <h5>Calcetines</h5>
             </div>
         </div>
@@ -107,7 +107,8 @@
             <div class="col-md-6 custom-section">
                 <div>
                     <h2>Lanzamientos de la semana</h2>
-                    <img src="https://placehold.co/600x400?text=Lanzamiento%20de%20la%20semana" alt="Imagen 1" class="rounded-image">
+                    <img src="images/home/lanzamiento_de_la_semana.png" alt="Imagen 1"
+                        class="rounded-image" width="600" height="400">
                 </div>
             </div>
 
@@ -115,7 +116,8 @@
             <div class="col-md-6 custom-section">
                 <div>
                     <h2>Descuentos temporales</h2>
-                    <img src="https://placehold.co/600x400?text=Descuentos%20temporales" alt="Imagen 2" class="rounded-image">
+                    <img src="images/home/slider2.png" alt="Imagen 2"
+                        class="rounded-image" width="600" height="400">
                 </div>
             </div>
         </div>
@@ -126,6 +128,46 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <!-- Bootstrap JS CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Sección 1 del Footer (Logo) -->
+                <div class="col-md-4 footer-section footer-logo">
+                    <a href="#">
+                        <img src="../proyecto_coder/images/LOGO PNG MAYOREO SALAZAR PARA PAGINA WEB.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Sección 2 del Footer (Párrafo) -->
+                <div class="col-md-4 footer-section">
+                    <h6><b>¡Mantente en contacto con nosotros!</b></h6>
+                    <p><i>infomayoreosalazar@gmail.com</i></p>
+                        <div class="red-social">
+                        <a href="https://www.facebook.com/Mayoreosalazarsv" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/mayoreo_salazarsv/" class="fa fa-instagram"></a>
+                        </div>
+                </div>
+
+                <!-- Sección 3 del Footer (Lista de Enlaces) -->
+                <div class="col-md-4 footer-section">
+                    <ul class="list-unstyled">
+                        <li><a href="pages/quienes somos.html">Quiénes Somos</a></li>
+                        <li><a href="pages/arrivals.html">Arrivals</a></li>
+                        <li><a href="pages/productos.html">Productos</a></li>
+                        <li><a href="pages/contactanos.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
