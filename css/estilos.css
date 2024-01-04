@@ -42,4 +42,9 @@ body {
   height: auto;
 }
 
+.row.producto h3 {
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+}
+
 /*# sourceMappingURL=estilos.css.map */
