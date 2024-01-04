@@ -27,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="pages/quienes somos.html">Quienes somos</a>
+                        <a class="nav-link active" aria-current="page" href="quienes somos.html">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/arrivals.html">Arrivals</a>
+                        <a class="nav-link" href="arrivals.html">Arrivals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/productos.html">Productos</a>
+                        <a class="nav-link" href="productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/contactanos.html">Contactanos</a>
+                        <a class="nav-link" href="contactanos.html">Contactanos</a>
                     </li>
                     </li>
                 </ul>
@@ -67,14 +67,27 @@
             </article>
         </section>
 
-        <form action="">
-            <ul>
-                <li>
-                    <label for="name">Nombre:</label>
-                    <input type="text">
-                </li>
-            </ul>
-        </form>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" style="width: 100%;">
+                  </div>
+                  <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono" style="width: 100%;">
+                  </div>
+                  <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" style="width: 100%;">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
     </main>
 </body>
 
