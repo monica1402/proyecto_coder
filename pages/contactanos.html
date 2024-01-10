@@ -19,8 +19,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../images/LOGO PNG MAYOREO SALAZAR PARA PAGINA WEB.png"
-                        alt="Logo" height="50"></a>
+                <a class="navbar-brand" href="../index.html"><img
+                        src="../images/LOGO PNG MAYOREO SALAZAR PARA PAGINA WEB.png" alt="Logo" height="50"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,51 +48,72 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container horarios-container">
             <div class="row producto">
                 <br>
                 <div class="col-md-12">
-                    <img class="img-contactanos" src="../images/contactanos/laptop-oficina.jpg" width="1000" height="450">
+                    <br><br>
+                    <img class="img-contactanos" src="../images/contactanos/laptop-oficina.jpg">
                 </div>
-            <br>
+                <div>
 
-            <section class="horarios">
-                <h1>Horarios de atención</h1>
-                <p>Lunes a Viernes 7:30 am - 5:30 pm</p>
-                <p>Sábado 8:00 am - 12:00 md</p>
-            </section>
-
-        <section>
-            <article>
-                <h2> Suscríbete a nuestro boletín para recibir los nuevos ingresos de ropa</h2>
-
-            </article>
-        </section>
-
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="form-group">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"
-                                style="width: 100%;">
+                    <div class="row">
+                        <br>
+                        <div class="col-md-12">
+                            <br>
+                            <br>
+                            <h1>Horarios de atención</h1>
                         </div>
-                        <div class="form-group">
-                            <label for="telefono">Teléfono:</label>
-                            <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono"
-                                style="width: 100%;">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <section class="horarios">
+
+                                <p>Lunes a Viernes <br> 7:30 am - 5:30 pm</p>
+                            </section>
                         </div>
-                        <div class="form-group">
-                            <label for="correo">Correo Electrónico:</label>
-                            <input type="email" class="form-control" id="correo"
-                                placeholder="Ingrese su correo electrónico" style="width: 100%;">
+                        <div class="col-md-6">
+                            <section class="horarios">
+                                <p>Sábado <br> 8:00 am - 12:00 md</p>
+                            </section>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+                    </div>
+
+                    <hr>
+
+
+                    <section>
+                        <article>
+                            <h2 class="suscribete-text"> Suscríbete a nuestro boletín para recibir los nuevos ingresos
+                                de ropa</h2>
+
+                        </article>
+                    </section>
+
+                    <div class="container mt-5 form-container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="form-label" for="nombre">Nombre:</label>
+                                        <input type="text" class="form-control" id="nombre"
+                                            placeholder="Ingrese su nombre" style="width: 100%;">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="telefono">Teléfono:</label>
+                                        <input type="tel" class="form-control" id="telefono"
+                                            placeholder="Ingrese su teléfono" style="width: 100%;">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="correo">Correo Electrónico:</label>
+                                        <input type="email" class="form-control" id="correo"
+                                            placeholder="Ingrese su correo electrónico" style="width: 100%;">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
     </main>
 
 
@@ -119,15 +140,21 @@
                 <!-- Sección 3 del Footer (Lista de Enlaces) -->
                 <div class="col-md-4 footer-section">
                     <ul class="list-unstyled">
-                        <li><a href="pages/quienes somos.html">Quiénes Somos</a></li>
-                        <li><a href="pages/arrivals.html">Arrivals</a></li>
-                        <li><a href="pages/productos.html">Productos</a></li>
-                        <li><a href="pages/contactanos.html">Contáctanos</a></li>
+                        <li><a href="quienes somos.html">Quiénes Somos</a></li>
+                        <li><a href="arrivals.html">Arrivals</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contactanos.html">Contáctanos</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Opcional: jQuery y Popper.js para componentes Bootstrap que requieran JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

@@ -24,8 +24,6 @@
 
 body {
   min-height: 100vh;
-  margin: 10px;
-  padding: 10px;
 }
 
 #footer {
@@ -47,8 +45,82 @@ body {
   margin-bottom: 20px !important;
 }
 
-.horarios {
+.centered-title {
   text-align: center;
+}
+
+.img_producto {
+  padding: 20px 20px;
+  border-radius: 30px;
+  opacity: 0;
+  transform: scale(0.9);
+  /* animation properties */
+  animation-name: easeInAnimation;
+  animation-duration: 1s;
+  /* change the duration as needed */
+  animation-fill-mode: forwards;
+  /* keeps the element in the state of the last animation frame when finished */
+}
+.img_producto:hover {
+  transform: scale(1.1); /* Adjust scale value to control zoom level */
+}
+
+@keyframes easeInAnimation {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.img-contactanos {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.horarios-container {
+  text-align: center;
+}
+.horarios-container h1,
+.horarios-container h2 {
+  text-align: center !important;
+  margin: 0 auto;
+}
+.horarios-container .horarios {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.suscribete-text {
+  margin-top: 2em;
+}
+
+.form-container {
+  justify-content: center;
+}
+.form-container .form-label {
+  text-align: left !important;
+  font-weight: 700;
+  display: block;
+}
+
+footer .footer-logo,
+footer .footer-section {
+  vertical-align: middle !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: transparent;
+  border: none;
+}
+
+.carousel {
+  padding: 6em;
 }
 
 /*# sourceMappingURL=estilos.css.map */
