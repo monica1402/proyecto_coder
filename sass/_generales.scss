@@ -1,0 +1,72 @@
+#cajacategoria {
+    text-align: center;
+    margin-top: $espacioPequeñoSalazar;
+    margin-bottom: 40px;
+}
+
+.custom-section {
+    text-align: center;
+
+}
+
+.rounded-image {
+    border-radius: $borderRadioSalazar; 
+    max-width: 100%;
+    height: auto;
+}
+
+#envios {
+    text-align: center;
+}
+
+.custom-section {
+    text-align: center;
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+.row.producto {
+    h3 {
+            margin-top: $espacioGrandeSalazar !important;
+            margin-bottom: 20px !important;
+
+    }
+}
+
+
+.centered-title {
+    text-align: center;
+}
+
+.img_producto {
+    padding: 20px 20px;
+    border-radius: $borderRadioSalazar;
+    opacity: 0;
+    transform: scale(0.9);
+    /* animation properties */
+    animation-name: easeInAnimation;
+    animation-duration: 1s;
+    /* change the duration as needed */
+    animation-fill-mode: forwards;
+    /* keeps the element in the state of the last animation frame when finished */
+
+    &:hover {
+            transform: scale(1.1); /* Adjust scale value to control zoom level */
+    }
+}
+
+@keyframes easeInAnimation {
+    from {
+            opacity: 0;
+            transform: scale(0.9);
+    }
+
+    to {
+            opacity: 1;
+            transform: scale(1);
+    }
+}
